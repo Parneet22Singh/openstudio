@@ -3,12 +3,6 @@
 #include "AudioEngine.h"
 #include "MainComponent.h"
 
-/**
-    OpenStudio — Phase 1 application entry point.
-
-    Owns the single SharedState and the AudioEngine, and hosts the MainComponent in a
-    resizable document window with a dark look and feel.
-*/
 class OpenStudioApplication : public juce::JUCEApplication
 {
 public:

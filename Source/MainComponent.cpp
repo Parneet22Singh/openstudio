@@ -4,7 +4,7 @@
 MainComponent::MainComponent (SharedState& s, AudioEngine& e)
     : state (s), engine (e), scope (s), arrangement (s), rack (s, e)
 {
-    // --- Transport ----------------------------------------------------------
+    // Transport 
     playButton.setClickingTogglesState (true);
     playButton.setColour (juce::TextButton::buttonOnColourId, juce::Colour (0xff3fc9a0));
     playButton.onClick = [this]
@@ -120,7 +120,7 @@ MainComponent::MainComponent (SharedState& s, AudioEngine& e)
         addAndMakeVisible (*l);
     }
 
-    // --- Pattern selector ---------------------------------------------------
+    // Pattern selector 
     for (int p = 0; p < SharedState::numPatterns; ++p)
     {
         auto& b = patternButtons[p];
