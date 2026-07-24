@@ -1,0 +1,456 @@
+=== save/load/export build Thu Jul 23 10:43:27 IST 2026 ===
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/OpenStudio.dir/Source/Main.cpp.obj
+In file included from D:/OpenStudio/Source/SamplerEngine.h:9,
+                 from D:/OpenStudio/Source/MainComponent.h:6,
+                 from D:/OpenStudio/Source/Main.cpp:4:
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'juce::String SoundFont::report() const':
+D:/OpenStudio/Source/Sf2Loader.h:108:35: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  108 |                 for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                   ^~
+D:/OpenStudio/Source/Sf2Loader.h:108:59: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  108 |                 for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                                        ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:109:30: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  109 |                     if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:109:84: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  109 |                     if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                                                                                    ^
+D:/OpenStudio/Source/Sf2Loader.h:113:40: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  113 |                     instName = instRec[instId].name;
+      |                                        ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:114:43: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  114 |                     for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                           ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:114:79: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  114 |                     for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                                                        ~~~~~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:117:43: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  117 |                         for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                           ^~
+D:/OpenStudio/Source/Sf2Loader.h:117:67: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  117 |                         for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                                                ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:118:38: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  118 |                             if (igen[g].op == GEN_sampleID) sid = (juce::uint16) igen[g].amount;
+      |                                      ^
+D:/OpenStudio/Source/Sf2Loader.h:118:87: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  118 |                             if (igen[g].op == GEN_sampleID) sid = (juce::uint16) igen[g].amount;
+      |                                                                                       ^
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'std::shared_ptr<Instrument> SoundFont::buildInstrument(int)':
+D:/OpenStudio/Source/Sf2Loader.h:142:33: warning: conversion to 'std::vector<SoundFont::PresetInfo>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  142 |         const auto& p = presets[presetIndex];
+      |                                 ^~~~~~~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:156:31: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  156 |             for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                               ^~
+D:/OpenStudio/Source/Sf2Loader.h:156:55: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  156 |             for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                                    ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:158:26: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  158 |                 if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                          ^
+D:/OpenStudio/Source/Sf2Loader.h:158:80: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  158 |                 if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                                                                                ^
+D:/OpenStudio/Source/Sf2Loader.h:159:62: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  159 |                 else                              pgens[pgen[g].op] = pgen[g].amount;
+      |                                                              ^
+D:/OpenStudio/Source/Sf2Loader.h:159:76: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  159 |                 else                              pgens[pgen[g].op] = pgen[g].amount;
+      |                                                                            ^
+D:/OpenStudio/Source/Sf2Loader.h:166:35: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  166 |             for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                   ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:166:71: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  166 |             for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                                                ~~~~~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:170:35: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  170 |                 for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                   ^~
+D:/OpenStudio/Source/Sf2Loader.h:170:59: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  170 |                 for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                                        ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:172:30: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  172 |                     if (igen[g].op == GEN_sampleID) sampleId = (juce::uint16) igen[g].amount;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:172:84: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  172 |                     if (igen[g].op == GEN_sampleID) sampleId = (juce::uint16) igen[g].amount;
+      |                                                                                    ^
+D:/OpenStudio/Source/Sf2Loader.h:173:64: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  173 |                     else                            igens[igen[g].op] = igen[g].amount;
+      |                                                                ^
+D:/OpenStudio/Source/Sf2Loader.h:173:78: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  173 |                     else                            igens[igen[g].op] = igen[g].amount;
+      |                                                                              ^
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'void SoundFont::buildPresetList()':
+D:/OpenStudio/Source/Sf2Loader.h:262:27: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  262 |             p.name = phdr[i].name;
+      |                           ^
+D:/OpenStudio/Source/Sf2Loader.h:263:27: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  263 |             p.bank = phdr[i].bank;
+      |                           ^
+D:/OpenStudio/Source/Sf2Loader.h:264:30: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  264 |             p.program = phdr[i].preset;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:265:31: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  265 |             p.bagStart = phdr[i].bagNdx;
+      |                               ^
+D:/OpenStudio/Source/Sf2Loader.h:266:31: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  266 |             p.bagEnd = phdr[i + 1].bagNdx;
+      |                             ~~^~~
+In file included from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors.h:144,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.h:60,
+                 from D:/OpenStudio/build/OpenStudio_artefacts/JuceLibraryCode/JuceHeader.h:14,
+                 from D:/OpenStudio/Source/Main.cpp:1:
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h: At global scope:
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h:280:18: warning: 'virtual void juce::AudioProcessor::processBlock(juce::AudioBuffer<double>&, juce::MidiBuffer&)' was hidden [-Woverloaded-virtual=]
+  280 |     virtual void processBlock (AudioBuffer<double>& buffer,
+      |                  ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h:52:10: note:   by 'virtual void SamplerProcessor::processBlock(juce::AudioBuffer<float>&, juce::MidiBuffer&)'
+   52 |     void processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midi) override
+      |          ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In constructor 'SamplerProcessor::SamplerProcessor(SharedState&)':
+D:/OpenStudio/Source/SamplerEngine.h:38:31: warning: 'void std::atomic_store(shared_ptr<_Tp>*, shared_ptr<_Tp>) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+   38 |             std::atomic_store (&ci, fallback);           // audible even before a SoundFont loads
+      |             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+In file included from D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/memory:81,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_core/system/juce_StandardHeader.h:63,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_core/juce_core.h:204,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_graphics/juce_graphics.h:58,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.h:60,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.h:57:
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:183:5: note: declared here
+  183 |     atomic_store(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r)
+      |     ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In member function 'bool SamplerProcessor::setChannelPreset(int, int)':
+D:/OpenStudio/Source/SamplerEngine.h:142:27: warning: 'void std::atomic_store(shared_ptr<_Tp>*, shared_ptr<_Tp>) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+  142 |         std::atomic_store (&channelInstrument[channel], inst);
+      |         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:183:5: note: declared here
+  183 |     atomic_store(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r)
+      |     ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In member function 'void SamplerProcessor::startVoice(int, int, float)':
+D:/OpenStudio/Source/SamplerEngine.h:204:38: warning: 'std::shared_ptr<_Tp> std::atomic_load(const shared_ptr<_Tp>*) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+  204 |         auto inst = std::atomic_load (&channelInstrument[channel]);
+      |                     ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:142:5: note: declared here
+  142 |     atomic_load(const shared_ptr<_Tp>* __p)
+      |     ^~~~~~~~~~~
+[2/5] Building CXX object CMakeFiles/OpenStudio.dir/Source/AudioEngine.cpp.obj
+In file included from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors.h:144,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.h:60,
+                 from D:/OpenStudio/build/OpenStudio_artefacts/JuceLibraryCode/JuceHeader.h:14,
+                 from D:/OpenStudio/Source/AudioEngine.h:3,
+                 from D:/OpenStudio/Source/AudioEngine.cpp:1:
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h:280:18: warning: 'virtual void juce::AudioProcessor::processBlock(juce::AudioBuffer<double>&, juce::MidiBuffer&)' was hidden [-Woverloaded-virtual=]
+  280 |     virtual void processBlock (AudioBuffer<double>& buffer,
+      |                  ^~~~~~~~~~~~
+In file included from D:/OpenStudio/Source/AudioEngine.cpp:2:
+D:/OpenStudio/Source/SequencerProcessor.h:28:10: note:   by 'virtual void SequencerProcessor::processBlock(juce::AudioBuffer<float>&, juce::MidiBuffer&)'
+   28 |     void processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midi) override
+      |          ^~~~~~~~~~~~
+In file included from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.h:124,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_devices/juce_audio_devices.h:57,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.h:58:
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_basics/synthesisers/juce_Synthesiser.h:191:18: warning: 'virtual void juce::SynthesiserVoice::renderNextBlock(juce::AudioBuffer<double>&, int, int)' was hidden [-Woverloaded-virtual=]
+  191 |     virtual void renderNextBlock (AudioBuffer<double>& outputBuffer,
+      |                  ^~~~~~~~~~~~~~~
+In file included from D:/OpenStudio/Source/AudioEngine.cpp:3:
+D:/OpenStudio/Source/SubtractiveSynth.h:74:10: note:   by 'virtual void SubtractiveVoice::renderNextBlock(juce::AudioBuffer<float>&, int, int)'
+   74 |     void renderNextBlock (juce::AudioBuffer<float>& outputBuffer,
+      |          ^~~~~~~~~~~~~~~
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h:280:18: warning: 'virtual void juce::AudioProcessor::processBlock(juce::AudioBuffer<double>&, juce::MidiBuffer&)' was hidden [-Woverloaded-virtual=]
+  280 |     virtual void processBlock (AudioBuffer<double>& buffer,
+      |                  ^~~~~~~~~~~~
+D:/OpenStudio/Source/SubtractiveSynth.h:159:10: note:   by 'virtual void SynthProcessor::processBlock(juce::AudioBuffer<float>&, juce::MidiBuffer&)'
+  159 |     void processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midi) override
+      |          ^~~~~~~~~~~~
+In file included from D:/OpenStudio/Source/SamplerEngine.h:9,
+                 from D:/OpenStudio/Source/AudioEngine.cpp:4:
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'juce::String SoundFont::report() const':
+D:/OpenStudio/Source/Sf2Loader.h:108:35: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  108 |                 for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                   ^~
+D:/OpenStudio/Source/Sf2Loader.h:108:59: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  108 |                 for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                                        ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:109:30: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  109 |                     if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:109:84: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  109 |                     if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                                                                                    ^
+D:/OpenStudio/Source/Sf2Loader.h:113:40: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  113 |                     instName = instRec[instId].name;
+      |                                        ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:114:43: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  114 |                     for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                           ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:114:79: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  114 |                     for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                                                        ~~~~~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:117:43: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  117 |                         for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                           ^~
+D:/OpenStudio/Source/Sf2Loader.h:117:67: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  117 |                         for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                                                ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:118:38: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  118 |                             if (igen[g].op == GEN_sampleID) sid = (juce::uint16) igen[g].amount;
+      |                                      ^
+D:/OpenStudio/Source/Sf2Loader.h:118:87: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  118 |                             if (igen[g].op == GEN_sampleID) sid = (juce::uint16) igen[g].amount;
+      |                                                                                       ^
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'std::shared_ptr<Instrument> SoundFont::buildInstrument(int)':
+D:/OpenStudio/Source/Sf2Loader.h:142:33: warning: conversion to 'std::vector<SoundFont::PresetInfo>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  142 |         const auto& p = presets[presetIndex];
+      |                                 ^~~~~~~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:156:31: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  156 |             for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                               ^~
+D:/OpenStudio/Source/Sf2Loader.h:156:55: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  156 |             for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                                    ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:158:26: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  158 |                 if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                          ^
+D:/OpenStudio/Source/Sf2Loader.h:158:80: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  158 |                 if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                                                                                ^
+D:/OpenStudio/Source/Sf2Loader.h:159:62: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  159 |                 else                              pgens[pgen[g].op] = pgen[g].amount;
+      |                                                              ^
+D:/OpenStudio/Source/Sf2Loader.h:159:76: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  159 |                 else                              pgens[pgen[g].op] = pgen[g].amount;
+      |                                                                            ^
+D:/OpenStudio/Source/Sf2Loader.h:166:35: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  166 |             for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                   ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:166:71: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  166 |             for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                                                ~~~~~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:170:35: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  170 |                 for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                   ^~
+D:/OpenStudio/Source/Sf2Loader.h:170:59: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  170 |                 for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                                        ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:172:30: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  172 |                     if (igen[g].op == GEN_sampleID) sampleId = (juce::uint16) igen[g].amount;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:172:84: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  172 |                     if (igen[g].op == GEN_sampleID) sampleId = (juce::uint16) igen[g].amount;
+      |                                                                                    ^
+D:/OpenStudio/Source/Sf2Loader.h:173:64: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  173 |                     else                            igens[igen[g].op] = igen[g].amount;
+      |                                                                ^
+D:/OpenStudio/Source/Sf2Loader.h:173:78: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  173 |                     else                            igens[igen[g].op] = igen[g].amount;
+      |                                                                              ^
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'void SoundFont::buildPresetList()':
+D:/OpenStudio/Source/Sf2Loader.h:262:27: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  262 |             p.name = phdr[i].name;
+      |                           ^
+D:/OpenStudio/Source/Sf2Loader.h:263:27: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  263 |             p.bank = phdr[i].bank;
+      |                           ^
+D:/OpenStudio/Source/Sf2Loader.h:264:30: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  264 |             p.program = phdr[i].preset;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:265:31: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  265 |             p.bagStart = phdr[i].bagNdx;
+      |                               ^
+D:/OpenStudio/Source/Sf2Loader.h:266:31: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  266 |             p.bagEnd = phdr[i + 1].bagNdx;
+      |                             ~~^~~
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h: At global scope:
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h:280:18: warning: 'virtual void juce::AudioProcessor::processBlock(juce::AudioBuffer<double>&, juce::MidiBuffer&)' was hidden [-Woverloaded-virtual=]
+  280 |     virtual void processBlock (AudioBuffer<double>& buffer,
+      |                  ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h:52:10: note:   by 'virtual void SamplerProcessor::processBlock(juce::AudioBuffer<float>&, juce::MidiBuffer&)'
+   52 |     void processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midi) override
+      |          ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In constructor 'SamplerProcessor::SamplerProcessor(SharedState&)':
+D:/OpenStudio/Source/SamplerEngine.h:38:31: warning: 'void std::atomic_store(shared_ptr<_Tp>*, shared_ptr<_Tp>) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+   38 |             std::atomic_store (&ci, fallback);           // audible even before a SoundFont loads
+      |             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+In file included from D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/memory:81,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_core/system/juce_StandardHeader.h:63,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_core/juce_core.h:204,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_graphics/juce_graphics.h:58,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.h:60,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.h:57:
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:183:5: note: declared here
+  183 |     atomic_store(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r)
+      |     ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In member function 'bool SamplerProcessor::setChannelPreset(int, int)':
+D:/OpenStudio/Source/SamplerEngine.h:142:27: warning: 'void std::atomic_store(shared_ptr<_Tp>*, shared_ptr<_Tp>) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+  142 |         std::atomic_store (&channelInstrument[channel], inst);
+      |         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:183:5: note: declared here
+  183 |     atomic_store(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r)
+      |     ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In member function 'void SamplerProcessor::startVoice(int, int, float)':
+D:/OpenStudio/Source/SamplerEngine.h:204:38: warning: 'std::shared_ptr<_Tp> std::atomic_load(const shared_ptr<_Tp>*) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+  204 |         auto inst = std::atomic_load (&channelInstrument[channel]);
+      |                     ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:142:5: note: declared here
+  142 |     atomic_load(const shared_ptr<_Tp>* __p)
+      |     ^~~~~~~~~~~
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h: At global scope:
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h:280:18: warning: 'virtual void juce::AudioProcessor::processBlock(juce::AudioBuffer<double>&, juce::MidiBuffer&)' was hidden [-Woverloaded-virtual=]
+  280 |     virtual void processBlock (AudioBuffer<double>& buffer,
+      |                  ^~~~~~~~~~~~
+In file included from D:/OpenStudio/Source/AudioEngine.cpp:6:
+D:/OpenStudio/Source/MasterProcessor.h:40:10: note:   by 'virtual void MasterProcessor::processBlock(juce::AudioBuffer<float>&, juce::MidiBuffer&)'
+   40 |     void processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer&) override
+      |          ^~~~~~~~~~~~
+D:/OpenStudio/Source/MasterProcessor.h: In member function 'virtual void MasterProcessor::prepareToPlay(double, int)':
+D:/OpenStudio/Source/MasterProcessor.h:22:40: warning: declaration of 'blockSize' shadows a member of 'MasterProcessor' [-Wshadow]
+   22 |     void prepareToPlay (double sr, int blockSize) override
+      |                                    ~~~~^~~~~~~~~
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h:1527:9: note: shadowed declaration is here
+ 1527 |     int blockSize = 0, latencySamples = 0;
+      |         ^~~~~~~~~
+[3/5] Building CXX object CMakeFiles/OpenStudio.dir/Source/MainComponent.cpp.obj
+In file included from D:/OpenStudio/Source/SamplerEngine.h:9,
+                 from D:/OpenStudio/Source/MainComponent.h:6,
+                 from D:/OpenStudio/Source/MainComponent.cpp:1:
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'juce::String SoundFont::report() const':
+D:/OpenStudio/Source/Sf2Loader.h:108:35: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  108 |                 for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                   ^~
+D:/OpenStudio/Source/Sf2Loader.h:108:59: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  108 |                 for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                                        ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:109:30: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  109 |                     if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:109:84: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  109 |                     if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                                                                                    ^
+D:/OpenStudio/Source/Sf2Loader.h:113:40: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  113 |                     instName = instRec[instId].name;
+      |                                        ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:114:43: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  114 |                     for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                           ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:114:79: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  114 |                     for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                                                        ~~~~~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:117:43: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  117 |                         for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                           ^~
+D:/OpenStudio/Source/Sf2Loader.h:117:67: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  117 |                         for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                                                ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:118:38: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  118 |                             if (igen[g].op == GEN_sampleID) sid = (juce::uint16) igen[g].amount;
+      |                                      ^
+D:/OpenStudio/Source/Sf2Loader.h:118:87: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  118 |                             if (igen[g].op == GEN_sampleID) sid = (juce::uint16) igen[g].amount;
+      |                                                                                       ^
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'std::shared_ptr<Instrument> SoundFont::buildInstrument(int)':
+D:/OpenStudio/Source/Sf2Loader.h:142:33: warning: conversion to 'std::vector<SoundFont::PresetInfo>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  142 |         const auto& p = presets[presetIndex];
+      |                                 ^~~~~~~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:156:31: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  156 |             for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                               ^~
+D:/OpenStudio/Source/Sf2Loader.h:156:55: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  156 |             for (int g = pbag[pz].genNdx; g < pbag[pz + 1].genNdx; ++g)
+      |                                                    ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:158:26: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  158 |                 if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                          ^
+D:/OpenStudio/Source/Sf2Loader.h:158:80: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  158 |                 if (pgen[g].op == GEN_instrument) instId = (juce::uint16) pgen[g].amount;
+      |                                                                                ^
+D:/OpenStudio/Source/Sf2Loader.h:159:62: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  159 |                 else                              pgens[pgen[g].op] = pgen[g].amount;
+      |                                                              ^
+D:/OpenStudio/Source/Sf2Loader.h:159:76: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  159 |                 else                              pgens[pgen[g].op] = pgen[g].amount;
+      |                                                                            ^
+D:/OpenStudio/Source/Sf2Loader.h:166:35: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  166 |             for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                   ^~~~~~
+D:/OpenStudio/Source/Sf2Loader.h:166:71: warning: conversion to 'std::vector<SoundFont::Inst>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  166 |             for (int iz = instRec[instId].bagNdx; iz < instRec[instId + 1].bagNdx; ++iz)
+      |                                                                ~~~~~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:170:35: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  170 |                 for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                   ^~
+D:/OpenStudio/Source/Sf2Loader.h:170:59: warning: conversion to 'std::vector<SoundFont::Bag>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  170 |                 for (int g = ibag[iz].genNdx; g < ibag[iz + 1].genNdx; ++g)
+      |                                                        ~~~^~~
+D:/OpenStudio/Source/Sf2Loader.h:172:30: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  172 |                     if (igen[g].op == GEN_sampleID) sampleId = (juce::uint16) igen[g].amount;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:172:84: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  172 |                     if (igen[g].op == GEN_sampleID) sampleId = (juce::uint16) igen[g].amount;
+      |                                                                                    ^
+D:/OpenStudio/Source/Sf2Loader.h:173:64: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  173 |                     else                            igens[igen[g].op] = igen[g].amount;
+      |                                                                ^
+D:/OpenStudio/Source/Sf2Loader.h:173:78: warning: conversion to 'std::vector<SoundFont::Gen>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  173 |                     else                            igens[igen[g].op] = igen[g].amount;
+      |                                                                              ^
+D:/OpenStudio/Source/Sf2Loader.h: In member function 'void SoundFont::buildPresetList()':
+D:/OpenStudio/Source/Sf2Loader.h:262:27: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  262 |             p.name = phdr[i].name;
+      |                           ^
+D:/OpenStudio/Source/Sf2Loader.h:263:27: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  263 |             p.bank = phdr[i].bank;
+      |                           ^
+D:/OpenStudio/Source/Sf2Loader.h:264:30: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  264 |             p.program = phdr[i].preset;
+      |                              ^
+D:/OpenStudio/Source/Sf2Loader.h:265:31: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  265 |             p.bagStart = phdr[i].bagNdx;
+      |                               ^
+D:/OpenStudio/Source/Sf2Loader.h:266:31: warning: conversion to 'std::vector<SoundFont::Phdr>::size_type' {aka 'long long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  266 |             p.bagEnd = phdr[i + 1].bagNdx;
+      |                             ~~^~~
+In file included from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors.h:144,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.h:60,
+                 from D:/OpenStudio/build/OpenStudio_artefacts/JuceLibraryCode/JuceHeader.h:14,
+                 from D:/OpenStudio/Source/MainComponent.h:3:
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h: At global scope:
+D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_processors/processors/juce_AudioProcessor.h:280:18: warning: 'virtual void juce::AudioProcessor::processBlock(juce::AudioBuffer<double>&, juce::MidiBuffer&)' was hidden [-Woverloaded-virtual=]
+  280 |     virtual void processBlock (AudioBuffer<double>& buffer,
+      |                  ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h:52:10: note:   by 'virtual void SamplerProcessor::processBlock(juce::AudioBuffer<float>&, juce::MidiBuffer&)'
+   52 |     void processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midi) override
+      |          ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In constructor 'SamplerProcessor::SamplerProcessor(SharedState&)':
+D:/OpenStudio/Source/SamplerEngine.h:38:31: warning: 'void std::atomic_store(shared_ptr<_Tp>*, shared_ptr<_Tp>) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+   38 |             std::atomic_store (&ci, fallback);           // audible even before a SoundFont loads
+      |             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+In file included from D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/memory:81,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_core/system/juce_StandardHeader.h:63,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_core/juce_core.h:204,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_graphics/juce_graphics.h:58,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.h:60,
+                 from D:/OpenStudio/build/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.h:57:
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:183:5: note: declared here
+  183 |     atomic_store(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r)
+      |     ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In member function 'bool SamplerProcessor::setChannelPreset(int, int)':
+D:/OpenStudio/Source/SamplerEngine.h:142:27: warning: 'void std::atomic_store(shared_ptr<_Tp>*, shared_ptr<_Tp>) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+  142 |         std::atomic_store (&channelInstrument[channel], inst);
+      |         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:183:5: note: declared here
+  183 |     atomic_store(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r)
+      |     ^~~~~~~~~~~~
+D:/OpenStudio/Source/SamplerEngine.h: In member function 'void SamplerProcessor::startVoice(int, int, float)':
+D:/OpenStudio/Source/SamplerEngine.h:204:38: warning: 'std::shared_ptr<_Tp> std::atomic_load(const shared_ptr<_Tp>*) [with _Tp = Instrument]' is deprecated: use 'std::atomic<std::shared_ptr<T>>' instead [-Wdeprecated-declarations]
+  204 |         auto inst = std::atomic_load (&channelInstrument[channel]);
+      |                     ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/OpenStudio/tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.3.0/include/c++/bits/shared_ptr_atomic.h:142:5: note: declared here
+  142 |     atomic_load(const shared_ptr<_Tp>* __p)
+      |     ^~~~~~~~~~~
+[4/5] Linking CXX executable OpenStudio_artefacts\Release\OpenStudio.exe
+=== DONE OK Thu Jul 23 10:47:26 IST 2026 ===

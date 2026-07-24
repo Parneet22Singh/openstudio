@@ -1,0 +1,189 @@
+0 | 0:0 | Yamaha Grand Piano  ->  inst[Yamaha Grand Piano]  zones=40  firstSample=P200 Piano C10(L)
+1 | 0:1 | Bright Yamaha Grand  ->  inst[Bright Yamaha Grand]  zones=40  firstSample=P200 Piano C10(L)
+2 | 0:2 | Electric Piano  ->  inst[Electric Piano]  zones=12  firstSample=Electric Piano G2
+3 | 0:3 | Honky Tonk  ->  inst[Honky Tonk]  zones=40  firstSample=P200 Piano C10(L)
+4 | 0:4 | Rhodes EP  ->  inst[Rhodes EP 1]  zones=26  firstSample=Rhodes C2(L)
+5 | 0:5 | Legend EP 2  ->  inst[Legend EP 2]  zones=18  firstSample=EP 2 C 4(L)
+6 | 0:6 | Harpsichord  ->  inst[Harpsichord]  zones=11  firstSample=Harpsichord D3
+7 | 0:7 | Clavinet  ->  inst[Clavinet]  zones=11  firstSample=Clavinet G2
+8 | 0:8 | Celesta  ->  inst[Celesta]  zones=16  firstSample=Celesta C 4(L)
+9 | 0:9 | Glockenspiel  ->  inst[Glockenspiel]  zones=8  firstSample=Glocken G7
+10 | 0:10 | Music Box  ->  inst[Music Box]  zones=11  firstSample=Music Box G#3
+11 | 0:11 | Vibraphone  ->  inst[Vibraphone]  zones=26  firstSample=Vibraphone B8(L)
+12 | 0:12 | Marimba  ->  inst[Marimba]  zones=12  firstSample=Marimba C 4(L)
+13 | 0:13 | Xylophone  ->  inst[Xylophone]  zones=20  firstSample=Xylophone F# 4(L)
+14 | 0:14 | Tubular Bells  ->  inst[Tubular Bells]  zones=10  firstSample=Tubular Bells C7(L)
+15 | 0:15 | Dulcimer  ->  inst[Dulcimer]  zones=12  firstSample=dulci_c3(L)
+16 | 0:16 | DrawbarOrgan  ->  inst[DrawbarOrgan]  zones=18  firstSample=Drawbar Organ(L)
+17 | 0:17 | Percussive Organ  ->  inst[Percussive Organ]  zones=20  firstSample=B3 A3
+18 | 0:18 | Rock Organ  ->  inst[Rock Organ]  zones=17  firstSample=Rock Organ G#3
+19 | 0:19 | Church Organ  ->  inst[Church Organ]  zones=21  firstSample=Church Organ C1
+20 | 0:20 | Reed Organ  ->  inst[Reed Organ]  zones=16  firstSample=reed organ f#4(L)
+21 | 0:21 | Accordian  ->  inst[Accordian]  zones=12  firstSample=Accordian C5(L)
+22 | 0:22 | Harmonica  ->  inst[Harmonica]  zones=16  firstSample=harmon_c2(L)
+23 | 0:23 | Bandoneon  ->  inst[Accordian]  zones=12  firstSample=Accordian C5(L)
+24 | 0:24 | Nylon String Guitar  ->  inst[Nylon Guitar]  zones=10  firstSample=Nylon E3
+25 | 0:25 | Steel String Guitar  ->  inst[Steel String Guitar]  zones=10  firstSample=Steel E3
+26 | 0:26 | Jazz Guitar  ->  inst[Jazz Guitar]  zones=24  firstSample=Jazz Guitar E3
+27 | 0:27 | Clean Guitar  ->  inst[Clean Guitar]  zones=20  firstSample=Clean F10
+28 | 0:28 | Palm Muted Guitar  ->  inst[Palm Muted Guitar]  zones=10  firstSample=PalmMuted Guitar E3
+29 | 0:29 | Overdrive Guitar  ->  inst[Overdrive Guitar]  zones=20  firstSample=Distortion E3
+30 | 0:30 | Distortion Guitar  ->  inst[Distortion Guitar]  zones=20  firstSample=Distortion E0
+31 | 0:31 | Guitar Harmonics  ->  inst[Guitar Harmonics]  zones=11  firstSample=Harmonics 7
+32 | 0:32 | Acoustic Bass  ->  inst[Acoustic Bass]  zones=10  firstSample=Acoustic Bass E2
+33 | 0:33 | Fingered Bass  ->  inst[Fingered Bass]  zones=9  firstSample=Finger Bass EO
+34 | 0:34 | Picked Bass  ->  inst[Picked Bass]  zones=9  firstSample=Picked Bass E0
+35 | 0:35 | Fretless Bass  ->  inst[Fretless Bass]  zones=8  firstSample=Fretless E1
+36 | 0:36 | Slap Bass  ->  inst[Slap Bass]  zones=9  firstSample=Slap Bass E0
+37 | 0:37 | Pop Bass  ->  inst[Pop Bass]  zones=9  firstSample=Pop E0
+38 | 0:38 | Synth Bass 1  ->  inst[Synth Bass]  zones=8  firstSample=saw-110(L)
+39 | 0:39 | Synth Bass 2  ->  inst[Synth Bass 2]  zones=8  firstSample=SB2 C3
+40 | 0:40 | Violin  ->  inst[Violin]  zones=28  firstSample=Violin G#4(L)
+41 | 0:41 | Viola  ->  inst[Viola]  zones=30  firstSample=Viola C#2(L)
+42 | 0:42 | Cello  ->  inst[Cello]  zones=36  firstSample=Cello C#3(L)
+43 | 0:43 | Contrabass  ->  inst[Contrabass]  zones=16  firstSample=Bass F2(L)
+44 | 0:44 | Tremolo  ->  inst[Tremolo Strings]  zones=34  firstSample=Strings G2L
+45 | 0:45 | Pizzicato Section  ->  inst[Pizzicato]  zones=28  firstSample=Pizz C3(L)
+46 | 0:46 | Harp  ->  inst[Orchestral Harp]  zones=28  firstSample=Harp A#1(L)
+47 | 0:47 | Timpani  ->  inst[Timpani]  zones=6  firstSample=Timpani 1(L)
+48 | 0:48 | Strings  ->  inst[Strings]  zones=34  firstSample=Strings G2L
+49 | 0:49 | Slow Strings  ->  inst[Slow Strings]  zones=34  firstSample=Strings G2L
+50 | 0:50 | Synth Strings 1  ->  inst[Synth Strings 1]  zones=6  firstSample=saw-fb-110
+51 | 0:51 | Synth Strings 2  ->  inst[Synth Strings 2]  zones=6  firstSample=saw-fb-110
+52 | 0:52 | Ahh Choir  ->  inst[Ahh Choir]  zones=30  firstSample=Ahh Choir D#3(L)
+53 | 0:53 | Ohh Voices  ->  inst[Ohh Voices]  zones=14  firstSample=Ohh Voices C 4(L)
+54 | 0:54 | Synth Voice  ->  inst[Synth Voice]  zones=16  firstSample=SynthVz C 4(L)
+55 | 0:55 | Orchestra Hit  ->  inst[Orchestra Hit]  zones=4  firstSample=Orch Hit G#6(L)
+56 | 0:56 | Trumpet  ->  inst[Trumpet]  zones=6  firstSample=tp_e3
+57 | 0:57 | Trombone  ->  inst[Trombone]  zones=13  firstSample=tromboneG3
+58 | 0:58 | Tuba  ->  inst[Tuba]  zones=8  firstSample=Tuba C3
+59 | 0:59 | Muted Trumpet  ->  inst[Muted Trumpet]  zones=6  firstSample=Muted F# 4
+60 | 0:60 | French Horns  ->  inst[French Horns]  zones=14  firstSample=French Horns A3(L)
+61 | 0:61 | Brass Section  ->  inst[Brass Left]  zones=10  firstSample=Brass Section F3
+62 | 0:62 | Synth Brass 1  ->  inst[Synth Brass]  zones=6  firstSample=Sbrass C4(L)
+63 | 0:63 | Synth Brass 2  ->  inst[Synth Brass 2]  zones=6  firstSample=Sbrass C4(L)
+64 | 0:64 | Soprano Sax  ->  inst[Soprano Sax]  zones=28  firstSample=Soprano A4(L)
+65 | 0:65 | Alto Sax  ->  inst[Alto Sax]  zones=32  firstSample=Alto D4(L)
+66 | 0:66 | Tenor Sax  ->  inst[Tenor Sax]  zones=30  firstSample=Tenor B3(L)
+67 | 0:67 | Baritone Sax  ->  inst[Baritone]  zones=34  firstSample=Baritone C#3(L)
+68 | 0:68 | Oboe  ->  inst[Oboe]  zones=14  firstSample=Oboe D#4(L)
+69 | 0:69 | English Horn  ->  inst[English Horn]  zones=16  firstSample=English Horn E4(L)
+70 | 0:70 | Bassoon  ->  inst[Bassoon]  zones=28  firstSample=E's Bassoon B0(L)
+71 | 0:71 | Clarinet  ->  inst[Clarinet]  zones=28  firstSample=Clarinet E4(L)
+72 | 0:72 | Piccolo  ->  inst[Piccolo]  zones=16  firstSample=Piccolo E6(L)
+73 | 0:73 | Flute  ->  inst[Flute]  zones=18  firstSample=Flute C#4(L)
+74 | 0:74 | Recorder  ->  inst[Recorder]  zones=16  firstSample=Recorder C6
+75 | 0:75 | Pan Flute  ->  inst[Pan Flute]  zones=16  firstSample=pan flute f#4(L)
+76 | 0:76 | Bottle Chiff  ->  inst[Bottle Chiff]  zones=2  firstSample=Bottle Chiff C7(L)
+77 | 0:77 | Shakuhachi  ->  inst[Shakuhachi]  zones=2  firstSample=shakhchi c6(L)
+78 | 0:78 | Whistle  ->  inst[Whistle]  zones=2  firstSample=whistle
+79 | 0:79 | Ocarina  ->  inst[Ocarina]  zones=4  firstSample=OcarE1
+80 | 0:80 | Square Lead  ->  inst[Square Lead]  zones=5  firstSample=Square Wave A1
+81 | 0:81 | Saw Wave  ->  inst[PF Saw Phat]  zones=5  firstSample=Sawtooth Wave A1
+82 | 0:82 | Calliope Lead  ->  inst[Calliope Lead]  zones=2  firstSample=Calliope Lead (L)
+83 | 0:83 | Chiffer Lead  ->  inst[Chiffer Lead]  zones=3  firstSample=Chiffer Drone
+84 | 0:84 | Charang  ->  inst[Charang Layer 1]  zones=5  firstSample=Sawtooth Wave A1
+85 | 0:85 | Solo Vox  ->  inst[Solo Vox]  zones=6  firstSample=solo_vox_c2
+86 | 0:86 | Fifth Sawtooth Wave  ->  inst[5th Saw Wave]  zones=16  firstSample=saw-110(L)
+87 | 0:87 | Bass & Lead  ->  inst[Bass Lead - 1]  zones=5  firstSample=Sawtooth Wave A1
+88 | 0:88 | Fantasia  ->  inst[Fantasia]  zones=7  firstSample=saw-fb-110
+89 | 0:89 | Warm Pad  ->  inst[Warm Pad]  zones=4  firstSample=Alien Strings(L)
+90 | 0:90 | Polysynth  ->  inst[Poly Synth]  zones=4  firstSample=Halo Pad(L)
+91 | 0:91 | Space Voice  ->  inst[Space Voice]  zones=11  firstSample=solo_vox_c2
+92 | 0:92 | Bowed Glass  ->  inst[Bowed Glass]  zones=3  firstSample=Bowed Glass
+93 | 0:93 | Metal Pad  ->  inst[Metal Pad]  zones=3  firstSample=Fine Wire C8
+94 | 0:94 | Halo Pad  ->  inst[Halo Pad]  zones=2  firstSample=Halo Pad(L)
+95 | 0:95 | Sweep Pad  ->  inst[Sweep Pad]  zones=2  firstSample=Sweeper C7(L)
+96 | 0:96 | Ice Rain  ->  inst[Ice Rain]  zones=7  firstSample=saw-fb-110
+97 | 0:97 | Soundtrack  ->  inst[Soundtrack]  zones=2  firstSample=Alien Strings(L)
+98 | 0:98 | Crystal  ->  inst[Crystal]  zones=13  firstSample=Celesta C 4(R)
+99 | 0:99 | Atmosphere  ->  inst[Atmosphere]  zones=12  firstSample=Alien Strings(L)
+100 | 0:100 | Brightness  ->  inst[Brightness]  zones=3  firstSample=Synth Strings 1(L)
+101 | 0:101 | Goblin  ->  inst[Goblin]  zones=3  firstSample=SynthVz C 7(L)
+102 | 0:102 | Echo Drops  ->  inst[Echo Drops]  zones=31  firstSample=Ahh Choir D#3(L)
+103 | 0:103 | Star Theme  ->  inst[Star Theme]  zones=12  firstSample=Clean F10
+104 | 0:104 | Sitar  ->  inst[Sitar]  zones=16  firstSample=sitar_e2(L)
+105 | 0:105 | Banjo  ->  inst[Banjo]  zones=6  firstSample=Banjo 1
+106 | 0:106 | Shamisen  ->  inst[Shamisen]  zones=16  firstSample=Shamisen C 4(L)
+107 | 0:107 | Koto  ->  inst[Koto]  zones=3  firstSample=Koto C 5(R)
+108 | 0:108 | Kalimba  ->  inst[Kalimba]  zones=6  firstSample=Kalimba G4
+109 | 0:109 | BagPipe  ->  inst[BagPipe]  zones=6  firstSample=Bagpipe A4
+110 | 0:110 | Fiddle  ->  inst[Violin]  zones=28  firstSample=Violin G#4(L)
+111 | 0:111 | Shenai  ->  inst[Shenai]  zones=6  firstSample=Shenai F#4(L)
+112 | 0:112 | Tinker Bell  ->  inst[Tinker Bell]  zones=7  firstSample=tinker bell
+113 | 0:113 | Agogo  ->  inst[Agogo]  zones=2  firstSample=High Agogo(L)
+114 | 0:114 | Steel Drums  ->  inst[Steel Drum]  zones=8  firstSample=Steel Drum F# 5(L)
+115 | 0:115 | Woodblock  ->  inst[Woodblock]  zones=2  firstSample=High Woodblock(L)
+116 | 0:116 | Taiko Drum  ->  inst[Taiko Drum]  zones=2  firstSample=Taiko Drum(L)
+117 | 0:117 | Melodic Tom  ->  inst[Melodic Tom]  zones=2  firstSample=Tom Hi(L)
+118 | 0:118 | Synth Drum  ->  inst[Synth Drum]  zones=4  firstSample=Electronic Tom(R)
+119 | 0:119 | Reverse Cymbal  ->  inst[Reverse Cymbal]  zones=1  firstSample=ReverseCymbal
+120 | 0:120 | Fret Noise  ->  inst[Fret Noise]  zones=1  firstSample=Fretnoise
+121 | 0:121 | Breath Noise  ->  inst[Breath Noise]  zones=1  firstSample=Breath Noise
+122 | 0:122 | Sea Shore  ->  inst[Sea Shore]  zones=3  firstSample=Sea Shore
+123 | 0:123 | Bird Tweet  ->  inst[Bird Tweet]  zones=1  firstSample=Bird
+124 | 0:124 | Telephone  ->  inst[Telephone]  zones=1  firstSample=Telephone
+125 | 0:125 | Helicopter  ->  inst[Helicopter]  zones=2  firstSample=Heli
+126 | 0:126 | Applause  ->  inst[Applause]  zones=2  firstSample=Applause
+127 | 0:127 | Gun Shot  ->  inst[Gun]  zones=1  firstSample=Gun
+128 | 8:4 | Detuned EP 1  ->  inst[Rhodes EP 1/GS]  zones=26  firstSample=Rhodes C2(L)
+129 | 8:5 | Detuned EP 2  ->  inst[Legend EP 2/GS]  zones=18  firstSample=EP 2 C 4(L)
+130 | 8:6 | Coupled Harpsichord  ->  inst[Harpsichord/GS]  zones=11  firstSample=Harpsichord D3
+131 | 8:14 | Church Bell  ->  inst[Tubular Bells/GS]  zones=10  firstSample=Tubular Bells C7(L)
+132 | 8:16 | Detuned Organ 1  ->  inst[DrawbarOrgan/GS]  zones=18  firstSample=Drawbar Organ(L)
+133 | 8:17 | Detuned Organ 2  ->  inst[DrawbarOrgan/GS]  zones=18  firstSample=Drawbar Organ(L)
+134 | 8:19 | Church Organ 2  ->  inst[Church Organ/GS]  zones=21  firstSample=Church Organ C1
+135 | 8:21 | Italian Accordion  ->  inst[Accordian/GS]  zones=12  firstSample=Accordian C5(L)
+136 | 8:24 | Ukulele  ->  inst[Nylon Guitar/GS]  zones=10  firstSample=Nylon E3
+137 | 8:25 | 12 String Guitar  ->  inst[Steel/GS]  zones=10  firstSample=Steel E3
+138 | 8:26 | Hawaiian Guitar  ->  inst[Jazz Guitar/GS]  zones=24  firstSample=Jazz Guitar E3
+139 | 8:28 | Funk Guitar  ->  inst[Clean Guitar]  zones=20  firstSample=Clean F10
+140 | 8:30 | Feedback Guitar  ->  inst[Feedback/GS]  zones=1  firstSample=Sine Wave high
+141 | 8:31 | Guitar Feedback  ->  inst[Feedback/GS]  zones=1  firstSample=Sine Wave high
+142 | 8:38 | Synth Bass 3  ->  inst[Synth Bass/GS]  zones=8  firstSample=saw-110(L)
+143 | 8:39 | Synth Bass 4  ->  inst[Synth Bass/GS]  zones=8  firstSample=saw-110(L)
+144 | 8:40 | Slow Violin  ->  inst[Slow Violin/GS]  zones=28  firstSample=Violin G#4(L)
+145 | 8:48 | Orchestral Pad  ->  inst[Brass Left/GS]  zones=10  firstSample=Brass Section F3
+146 | 8:50 | Synth Strings 3  ->  inst[Strings/GS]  zones=34  firstSample=Strings G2L
+147 | 8:61 | Brass 2  ->  inst[Brass Left/GS]  zones=10  firstSample=Brass Section F3
+148 | 8:62 | Synth Brass 3  ->  inst[Synth Brass/GS]  zones=6  firstSample=Sbrass C4(L)
+149 | 8:63 | Synth Brass 4  ->  inst[Synth Brass2/GS]  zones=6  firstSample=Sbrass C4(L)
+150 | 8:80 | Sine Wave  ->  inst[Sine Wave/GS]  zones=1  firstSample=Sine Wave high
+151 | 8:107 | Taisho Koto  ->  inst[Steel/GS]  zones=10  firstSample=Steel E3
+152 | 8:115 | Castanets  ->  inst[Castanets/GS]  zones=1  firstSample=Castanet
+153 | 8:116 | Concert Bass Drum  ->  inst[Concert Bass Drum/GS]  zones=14  firstSample=Orch Bass Drum(L)
+154 | 8:117 | Melo Tom 2  ->  inst[Melodic Tom 2/GS]  zones=2  firstSample=Tom Hi(L)
+155 | 8:118 | 808 Tom  ->  inst[808 Tom/GS]  zones=1  firstSample=808 Tom 6
+156 | 9:125 | Burst Noise  ->  inst[Harpsichord/GS]  zones=11  firstSample=Harpsichord D3
+157 | 16:25 | Mandolin  ->  inst[Steel/GS]  zones=10  firstSample=Steel E3
+158 | 128:0 | Standard  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+159 | 128:1 | Standard 1  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+160 | 128:2 | Standard 2  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+161 | 128:3 | Standard 3  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+162 | 128:4 | Standard 4  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+163 | 128:5 | Standard 5  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+164 | 128:6 | Standard 6  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+165 | 128:7 | Standard 7  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+166 | 128:8 | Room  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+167 | 128:9 | Room 1  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+168 | 128:10 | Room 2  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+169 | 128:11 | Room 3  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+170 | 128:12 | Room 4  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+171 | 128:13 | Room 5  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+172 | 128:14 | Room 6  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+173 | 128:15 | Room 7  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+174 | 128:16 | Power  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+175 | 128:17 | Power 1  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+176 | 128:18 | Power 2  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+177 | 128:19 | Power 3  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+178 | 128:24 | Electronic  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+179 | 128:25 | TR-808  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+180 | 128:32 | Jazz  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+181 | 128:33 | Jazz 1  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+182 | 128:34 | Jazz 2  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+183 | 128:35 | Jazz 3  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+184 | 128:36 | Jazz 4  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+185 | 128:40 | Brush  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+186 | 128:41 | Brush 1  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+187 | 128:42 | Brush 2  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)
+188 | 128:48 | Orchestra Kit  ->  inst[Misc. Percussion]  zones=25  firstSample=High Q(L)

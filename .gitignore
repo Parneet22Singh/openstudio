@@ -1,0 +1,7 @@
+/build/
+/Builds/
+*.user
+.vs/
+/Content/
+.DS_Store
+/tools/
